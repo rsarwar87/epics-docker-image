@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#docker build -t epics-base .
+
+export IMAGENAME=epics-base
+export IUID=$UID
+export IGID=`id -g $USER`
+export whoami=$USER
+export LDIR="$PWD" #"/home/$USER/workspace"
+

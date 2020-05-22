@@ -1,0 +1,12 @@
+version: '3'
+services:
+  epics-base:
+    image: "${IMAGENAME}"
+    environment:
+        - USER_ID=${IUID}
+        - USER_NAME=${whoami}
+        - GROUP_ID=${IGID}
+    volumes: 
+        - /home/${whoami}/workspace:/home/${whoami}/workspace
+    working_dir:
+        ${LDIR}
