@@ -3,16 +3,27 @@ docker image that syncs your workspace in your host machine and mount it on the 
 
 ## Installed versions:
 EPICS 3.15.8 (depfault)
+
 EPICS 7.0.3.1
+
 IPAC  2.15
+
 SEQ   2.2.3-4
+
 SSCAN R2-11
+
 CALC  R5-4-2
+
 ANYS  R4-39
+
 AUTOSAVE R5-10-1
+
 BUSY  R1-7-2
+
 AREADETECTOR R3-9
+
 PyEpics
+
 Caproto
 
 ## Operating system & Compiler
